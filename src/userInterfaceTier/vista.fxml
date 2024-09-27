@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="userInterfaceTier.UserDataWindowController">
+   <children>
+      <Button fx:id="btn_mostrar" layoutX="217.0" layoutY="363.0" onAction="#handleButtonAction" text="MOSTRAR DATOS" />
+      <Label layoutX="38.0" layoutY="46.0" text="NOMBRE" />
+      <TextField fx:id="tf_nombre" editable="false" layoutX="38.0" layoutY="76.0" />
+      <Label layoutX="384.0" layoutY="135.0" text="CÓDIGO POSTAL" />
+      <Label layoutX="38.0" layoutY="135.0" text="DNI" />
+      <Label layoutX="384.0" layoutY="48.0" text="APELLIDO" />
+      <TextField fx:id="tf_cod" editable="false" layoutX="384.0" layoutY="163.0" />
+      <TextField fx:id="tf_dni" editable="false" layoutX="38.0" layoutY="163.0" />
+      <TextField fx:id="tf_apellido" editable="false" layoutX="384.0" layoutY="76.0" />
+   </children>
+</Pane>
